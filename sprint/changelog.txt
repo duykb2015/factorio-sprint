@@ -1,27 +1,38 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2026-10-31
+  Changes:
+    - VI: Phát hành mô tả đơn giản, vui nhẹ và changelog đầy đủ tiếng Việt, tiếng Anh.
+    - EN: Release simplified, lighthearted descriptions and complete Vietnamese/English changelogs.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2026-10-31
   Features:
-    - Thêm bản dịch Anh, Việt, Trung giản thể, Tây Ban Nha, Đức và Nga.
-    - Add English, Vietnamese, Simplified Chinese, Spanish, German and Russian localization.
+    - VI: Thêm bản dịch Việt, Anh, Trung giản thể, Tây Ban Nha, Đức và Nga.
+    - EN: Add Vietnamese, English, Simplified Chinese, Spanish, German and Russian translations.
   Changes:
-    - Mô tả song ngữ: tiếng Việt trước, tiếng Anh sau.
-    - Present bilingual descriptions in Vietnamese first, then English.
+    - VI: Viết lại mô tả ngắn gọn, dễ hiểu, vui nhẹ; tiếng Việt trước, tiếng Anh sau.
+    - VI: Bỏ hướng dẫn cài đặt khỏi mô tả Mod Portal; thêm changelog song ngữ trong dự án.
+    - EN: Rewrite descriptions in a simple, lighthearted style, with Vietnamese before English.
+    - EN: Omit installation instructions from Mod Portal copy; add a bilingual project changelog.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2026-10-31
   Changes:
-    - Replace Shift shortcuts with Left Ctrl, avoiding Shift + F conflicts.
-    - New control identifier prevents previous saved Shift bindings from remaining active.
-    - Reduce thumbnail to a softly filtered 144x144 PNG.
+    - VI: Đổi phím chạy sang Ctrl trái để tránh xung đột Shift + F.
+    - VI: Dùng mã điều khiển mới để binding Shift cũ không còn kích hoạt chạy.
+    - VI: Thu thumbnail xuống 144x144, làm mềm chi tiết để giảm dung lượng.
+    - EN: Switch sprint to Left Ctrl to avoid Shift + F conflicts.
+    - EN: Use a new control identifier so previous Shift bindings no longer trigger sprint.
+    - EN: Reduce the thumbnail to a softly filtered 144x144 image to save space.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-10-31
   Features:
-    - Toggle sprint with Left Shift, Shift + G or the on-screen button.
-    - Default 4x multiplier, adjustable from 1 to 100 in-game per player.
-    - Measure final movement speed and preserve additive bonuses from other mods.
-
-
-
+    - VI: Thêm chạy nhanh dạng bật/tắt bằng Shift, Shift + G hoặc nút trên giao diện.
+    - VI: Mặc định x4; chỉnh x1 đến x100 ngay trong game, riêng cho từng người chơi.
+    - VI: Nhân tốc độ thực tế của nhân vật và giữ các bonus cộng thêm từ mod khác.
+    - EN: Add toggle sprint using Shift, Shift + G or the on-screen button.
+    - EN: Default to 4x speed with per-player, in-game controls from 1x to 100x.
+    - EN: Scale actual character movement speed while preserving additive bonuses from other mods.
 

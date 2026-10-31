@@ -1,11 +1,12 @@
 {
   "name": "sprint",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "title": "Sprint",
   "author": "duyx",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.0"
   ],
-  "description": "Bật/tắt chạy nhanh không giới hạn bằng Ctrl trái. Mặc định x4 tốc độ di chuyển hiện tại, bao gồm bonus từ trang bị và mod khác. Chỉnh hệ số ngay trong game, không cần khởi động lại.\n\nToggle unlimited sprint with Left Ctrl. Default 4x your current movement speed, including equipment and other mod bonuses. Adjust the multiplier instantly in-game without restarting."
+  "description": "Nhà máy cần lớn hơn, không phải quãng đường đi bộ. Nhấn Ctrl trái để chạy x4, chỉnh tốc độ ngay trong game.\n\nGrow the factory, not your step count. Press Left Ctrl to sprint at 4x speed and adjust it in-game."
 }
+

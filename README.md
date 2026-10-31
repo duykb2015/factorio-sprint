@@ -6,7 +6,7 @@ Mod cho Factorio 2.1. Nhấn **Ctrl trái** để bật/tắt chạy nhanh khôn
 
 Có tính bonus từ trang bị, phe và các mod tốc độ dạng cộng thêm như RPGsystem. Các mod ghi đè tốc độ vẫn có thể xung đột. Shift + F không kích hoạt Sprint; Ctrl trái vẫn có thể kích hoạt khi dùng tổ hợp Ctrl khác. Có thể đổi phím trong phần điều khiển của mod.
 
-Cài đặt: chép `sprint_0.1.2.zip` vào `%APPDATA%\Factorio\mods` và khởi động lại game. Tắt Sprint và lưu trước khi gỡ mod.
+Cài đặt: chép `sprint_0.1.3.zip` vào `%APPDATA%\Factorio\mods` và khởi động lại game. Tắt Sprint và lưu trước khi gỡ mod.
 
 Hỗ trợ **Việt, Anh, Trung giản thể, Tây Ban Nha, Đức và Nga**, theo ngôn ngữ game. Lịch sử thay đổi ở [CHANGELOG.md](CHANGELOG.md) và `sprint/changelog.txt` (được đóng gói trong mod).
 
@@ -26,11 +26,11 @@ Compatibility: designed for speed bonuses from other mods; sprint scales the res
 
 ## Install
 
-Copy `sprint_0.1.2.zip` into `%APPDATA%\Factorio\mods`, then enable Sprint and restart Factorio to load the new mod. Runtime multiplier changes do not require restart. The package script reads info.json and includes the required version in both the ZIP filename and its internal folder, ready for installation and Mod Portal upload.
+Copy `sprint_0.1.3.zip` into `%APPDATA%\Factorio\mods`, then enable Sprint and restart Factorio to load the new mod. Runtime multiplier changes do not require restart. The package script reads info.json and includes the required version in both the ZIP filename and its internal folder, ready for installation and Mod Portal upload.
 
 ## Build and test
 
-Run `./tools/package.ps1` from this repository. Output: `sprint_<version>.zip` (currently `sprint_0.1.2.zip`). Git tracks source; build output is ignored.
+Run `./tools/package.ps1` from this repository. Output: `sprint_<version>.zip` (currently `sprint_0.1.3.zip`). Git tracks source; build output is ignored.
 
 An engine scenario is included in source under `sprint/scenarios/sprint-test`. It checks measured 4x scaling, character/force/equipment bonuses, additive changes while active, live multiplier changes, disable/restore, vehicle exclusion and destroyed characters. Run with an isolated mod directory using `--test-scenario sprint/sprint-test --test-ticks 2 --disable-audio` and check for `SPRINT TESTS PASSED` in the log. No automated interactive GUI/keyboard or full mod-pack session has been validated.
 
@@ -45,5 +45,6 @@ Thumbnail generated with the built-in ImageGen tool. Prompt: Original engineer i
 ## Localization
 
 Supported locale folders: en, vi, zh-CN, es-ES, de, ru. UI language follows Factorio. Main and English/Vietnamese descriptions use Vietnamese first, then English. Translation sources are maintained in tools/update-locales.ps1. See CHANGELOG.md for release history.
+
 
 

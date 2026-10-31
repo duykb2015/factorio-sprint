@@ -1,10 +1,10 @@
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
-$vi='Bật/tắt chạy nhanh không giới hạn bằng Ctrl trái. Mặc định x4 tốc độ di chuyển hiện tại, bao gồm bonus từ trang bị và mod khác. Chỉnh hệ số ngay trong game, không cần khởi động lại.'
-$en='Toggle unlimited sprint with Left Ctrl. Default 4x your current movement speed, including equipment and other mod bonuses. Adjust the multiplier instantly in-game without restarting.'
+$vi='Nhà máy cần lớn hơn, không phải quãng đường đi bộ. Nhấn Ctrl trái để chạy x4, chỉnh tốc độ ngay trong game.'
+$en='Grow the factory, not your step count. Press Left Ctrl to sprint at 4x speed and adjust it in-game.'
 $infoPath=Join-Path $root 'sprint/info.json'
 $info=Get-Content $infoPath -Raw | ConvertFrom-Json
-$info.version='0.1.2'
+# Preserve the release version from info.json.
 $info.description=$vi+"`n`n"+$en
 $info | ConvertTo-Json -Depth 5 | Set-Content $infoPath -Encoding utf8
 $translations=@{
@@ -22,4 +22,6 @@ foreach($lang in $translations.Keys) {
  $lines=@('[mod-name]','sprint=Sprint','[mod-description]',('sprint='+$t[0]),'[controls]',('sprint-toggle-ctrl='+$t[1]),'[sprint]',('toggle='+$t[2]),('on='+$t[3]),('off='+$t[4]),('hint='+$t[5]),('multiplier='+$t[6]),('apply='+$t[7]),('invalid='+$t[8]))
  $lines | Set-Content (Join-Path $dir 'sprint.cfg') -Encoding utf8
 }
+
+
 
