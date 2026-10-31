@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-10-31
+  Features:
+    - Thêm bản dịch Anh, Việt, Trung giản thể, Tây Ban Nha, Đức và Nga.
+    - Add English, Vietnamese, Simplified Chinese, Spanish, German and Russian localization.
+  Changes:
+    - Mô tả song ngữ: tiếng Việt trước, tiếng Anh sau.
+    - Present bilingual descriptions in Vietnamese first, then English.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-10-31
+  Changes:
+    - Replace Shift shortcuts with Left Ctrl, avoiding Shift + F conflicts.
+    - New control identifier prevents previous saved Shift bindings from remaining active.
+    - Reduce thumbnail to a softly filtered 144x144 PNG.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-10-31
+  Features:
+    - Toggle sprint with Left Shift, Shift + G or the on-screen button.
+    - Default 4x multiplier, adjustable from 1 to 100 in-game per player.
+    - Measure final movement speed and preserve additive bonuses from other mods.
+
+
+
+
